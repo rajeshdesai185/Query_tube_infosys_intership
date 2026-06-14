@@ -1,1 +1,0 @@
-const parser = require('./frontend/node_modules/@babel/parser'); const fs=require('fs'); const code = fs.readFileSync('./frontend/src/App.jsx','utf8'); try { parser.parse(code, { sourceType:'module', plugins:['jsx'] }); console.log('PARSE_OK'); } catch(e){ console.error(e.message); console.error(JSON.stringify(e.loc)); process.exit(1); }

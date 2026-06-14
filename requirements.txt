@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+python-jose[cryptography]
+passlib
+pydantic
+numpy
+pandas
+transformers
+sentence-transformers
+chromadb
+pyarrow
+fastparquet
+tabulate
+psutil
+     
